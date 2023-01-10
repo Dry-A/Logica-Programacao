@@ -1,0 +1,31 @@
+<meta charset="UTF-8">
+
+<h3>Alcool ou gasolina</h3>
+
+<script>
+
+function pulaLinha() {
+    
+    document.write("<br><br><br>");
+    
+}
+
+function mostra(frase){
+    document.write(frase);
+    pulaLinha();
+    
+}
+
+var percursoGasolina = 480;
+var percursoAlcool= 300 ;
+var tanque = 40;
+var consGasolina = percursoGasolina/tanque;
+var consAlcool = percursoAlcool/tanque;
+
+//document.write(" A gasolina consome "+ consGasolina+" kilômetros por litro.");
+mostra(" A gasolina consome "+ consGasolina+" kilômetros por litro.")
+mostra("O álcool consome "+consAlcool+" kilômetros por litro")
+//document.write("O álcool consome "+consAlcool+" kilômetros por litro");
+
+
+</script>

@@ -1,0 +1,29 @@
+<meta charset="UTF-8">
+<script>
+
+    function pulaLinha() {
+
+        document.write("<br>");
+    }
+
+    function mostra(frase) {
+
+        document.write(frase);
+        pulaLinha();
+    }
+
+   var anoCopa = 1930;
+
+   var anoInformado = prompt("Até que ano você quer saber se teve copa?")
+
+   while(anoCopa<=anoInformado){
+
+       alert("Teve copa em "+anoCopa);
+   anoCopa = anoCopa+4;
+   }
+
+   alert("Fim");
+
+
+   
+</script>

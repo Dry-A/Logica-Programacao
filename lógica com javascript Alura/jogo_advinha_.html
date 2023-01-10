@@ -1,0 +1,29 @@
+
+<meta charset="UTF-8">
+
+
+<input/>
+   <button>Compare com o meu segredo</button>
+
+
+<script>
+   var segredo = 15; 
+
+   var input = document.querySelector("input");//mesmo nome da tag
+   
+   function verifica(){
+
+    if( input.value==segredo){
+    alert("Você acertou!");
+   }else{
+    alert("Você errou!!!")
+   
+   }
+   
+   }
+   
+var button = document.querySelector("button");
+
+button.onclick = verifica; //sem os parenteses, assim, ele nao inicia imediatamente, só no onclik
+
+</script>

@@ -1,0 +1,9 @@
+<meta charset="UTF-8">
+<script>
+    var IDADE1 = 10;
+    var IDADE2 = "20";
+    var IDADE3 = 12;
+
+    document.write("A média das idades é <br>");
+    document.write( (IDADE1 + IDADE2 + IDADE3) / 3);
+</script>
